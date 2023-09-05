@@ -1,0 +1,20 @@
+.plate, .warning, .error, .success {
+  padding: 20px;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
+
+.warning {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */

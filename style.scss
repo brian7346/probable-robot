@@ -1,0 +1,21 @@
+.plate {
+    padding: 20px;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.success {
+    @extend .plate;
+    background-color: green;
+}
+
+.error {
+    @extend .plate;
+    background-color: red;
+}
+
+.warning {
+    @extend .plate;
+    background-color: yellow;
+}
