@@ -1,20 +1,22 @@
-.plate, .warning, .error, .success {
-  padding: 20px;
-  margin: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-}
-
 .success {
-  background-color: green;
+  background: DarkGreen;
+  box-shadow: 0 0 1px DarkGreen;
+  padding: 20px 10px;
+  margin: 10px;
 }
 
 .error {
-  background-color: red;
+  background: Red;
+  box-shadow: 0 0 1px Red;
+  padding: 20px 10px;
+  margin: 10px;
 }
 
 .warning {
-  background-color: yellow;
+  background: Yellow;
+  box-shadow: 0 0 1px Yellow;
+  padding: 20px 10px;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
