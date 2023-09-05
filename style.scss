@@ -1,21 +1,18 @@
-.plate {
-    padding: 20px;
-    margin: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+@mixin theme($theme: DarkBlue) {
+    background: $theme;
+    box-shadow: 0 0 1px $theme;
+    padding: 20px 10px;
+    margin: 10px;
 }
 
 .success {
-    @extend .plate;
-    background-color: green;
+    @include theme ($theme: DarkGreen);
 }
 
 .error {
-    @extend .plate;
-    background-color: red;
+    @include theme($theme: Red);
 }
 
 .warning {
-    @extend .plate;
-    background-color: yellow;
+    @include theme ($theme: Yellow);
 }
